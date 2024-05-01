@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;  
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+  background-image: url('http://www.getuwired.com/devtest/Death_to_stock_photography_Vibrant.jpg');
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.emoji {
+
+    font-size: 10rem;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.closed {
+    display: none;
+}
+
+.open {
+    display: none;
+}
+
+.active{
+    display: block;
+}
+
+img {
+    
+    width:200px;
+    height:60px;
+
+  }
+
+  div {
+    border: 1px solid black;
+    background-color: rgb(15, 214, 105);
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+
+#div1, #div2 {
+    float: right;
+    width: 220px;
+    height: 60px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+  }
