@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+<title>Splash Page</title>   
+
+</head>
+<body>
+
+    
+     
+     
+    <div class="menu">
+        <h1>JACK FLASH APPAREL</h1>
+ <ul>
+    <li><a href="#">Home</a>
+        <li><a href="#">About</a>
+            <ul class="submenu">
+                <li><a href="#">Our Story</a></li>
+                <li><a href="#">Our Commitment to You</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Locations</a>
+        <ul class="submenu">
+            <li><a href="#">Austin, TX</a></li>
+            <li><a href="#">Atlanta, GA</a></li>
+            <li><a href="#">Seattle, WA</a></li>
+            <li><a href="#">Portand, OR</a></li>
+        </ul>
+
+        <li><a href="#">Products</a>
+            <ul class="submenu">
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Featured</a></li>
+                <li><a href="#">Top Rated</a></li>
+                <li><a href="#">His</a></li>
+                <li><a href="#">Hers</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#">Spring Catalog</a></li>
+                <li><a href="#">Essentials</a></li>
+                <li><a href="#">Sale</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</div>
+
+<h2>Click on the MINKY!!</h2>
+    
+ <div class="emoji closed active">🙈</div>  
+ <div class="emoji open">🙉</div>
+ 
+ <h2>Drag and Drop</h2>
+ <p>Drag the image back and forth between frames.</p>
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="images/PorkyMeme.gif" draggable="true" ondragstart="drag(event)" id="drag1" width="88" height="31">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+<script src="app.js"></script> 
+
+</body>
+</html>
